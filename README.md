@@ -30,8 +30,8 @@ billion years to check them all. There is an efficient algorithm to solve it.
 
 ***
 
-The file p-67_triangle.txt contains the 1-- row tree.  The implementation file
- is maximum_path_sums_II.cpp.  It was compiled on my system with:
+The file p-67_triangle.txt contains the 100 row triangle.  The implementation 
+file is maximum_path_sums_II.cpp.  It was compiled on my system with:
 g++ -Wall -Wextra -std=gnu++11 maximum_path_sums_II.cpp -o maximum_path
 
 Implementation details are contained within the C++ file.  Confirmation of the 
