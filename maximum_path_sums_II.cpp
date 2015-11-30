@@ -19,7 +19,8 @@ using namespace std;
   Thus, we find the maxmimum possible some with a depth-first traversal of the
   tree.  For each node starting from the second to last row, the find the
   maximum possible sum for the subtree whose root node is that node.  Then,
-  we do this for each row at a time, going up, until we reach the top.
+  we do this for each row at a time, going up, until we reach the top.  This
+  is much faster than the slow way of calculating each path (see README.md).
 
   I don't use a traditional tree because two siblings will share a child in
   this tree, although that could be done if you simply insert most numbers in
